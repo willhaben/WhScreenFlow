@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<item type="id" name="foaas_input0"/>
+	<item type="id" name="foaas_input1"/>
+	<item type="id" name="foaas_input2"/>
+	<item type="id" name="foaas_input3"/>
+	<item type="id" name="foaas_input4"/>
+	<item type="id" name="foaas_input5"/>
+	<item type="id" name="foaas_input6"/>
+	<item type="id" name="foaas_input7"/>
+	<item type="id" name="foaas_input8"/>
+	<item type="id" name="foaas_input9"/>
+
+</resources>

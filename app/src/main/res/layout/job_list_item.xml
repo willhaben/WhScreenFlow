@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="8dp"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        card_view:contentPadding="8dp"
+        android:layout_gravity="center"
+        card_view:cardBackgroundColor="@color/md_white_1000"
+        card_view:cardElevation="6dp"
+        card_view:cardCornerRadius="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="@color/md_black_1000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:id="@+id/titleJobListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="12sp"
+                android:id="@+id/tvJobListItemCompanyAndType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="12sp"
+                android:id="@+id/tvJobListItemLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:scaleType="fitEnd"
+            android:id="@+id/imageJobListItem"
+            android:layout_gravity="bottom|end"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
