@@ -1,6 +1,6 @@
 package at.willhaben.whscreenflow.screens
 
-import android.support.annotation.CallSuper
+import androidx.annotation.CallSuper
 import at.willhaben.network.NetworkManager
 import at.willhaben.network.NetworkTrait
 import at.willhaben.network.storage.NetworkResultStorage
