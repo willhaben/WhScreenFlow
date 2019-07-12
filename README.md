@@ -1,3 +1,6 @@
+# Deprecated
+please checkout https://github.com/willhaben/MultiStackScreenFlow
+
 # WhScreenFlow
 A non fragment approach 
 
